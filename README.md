@@ -47,7 +47,7 @@ Para essa API, são necessários:
 * 2 motores DC de 3 a 6V
 * Módulo de Ponte H L298N
 
-A Figura 4 mostra a pinagem do módulo de ponte H L298N. É necessário ligar o primeiro motor aos dois terminais de motor A, o segundo motor aos dois terminais do motor B, ligar os 4 pinos de saída definidos no MCU nas conexões IN1,IN2,IN3 e IN4 indicadas. Além disso, esse módulo requere uma alimentação de 6V a 32V para operar os motores. Ainda, ele possui um regulador de tensão de 5V para alimentação de dispositivos externos. Caso seja utilizado, deve ser ligado o jumpar "ATIVA 5V". Caso contrário, o pino de 5V deve ser conectado à alimentação do MCU para servir de referência ao nível lógico HIGH. Caso seja utilizado PWM, os jumpers ATIVA MA e MB deve ser desconectados e duas saídas analógicas devem ser ligadas a esses pinos. Nessa aplicação não foi utilizado PWM.
+A Figura 4 mostra a pinagem do módulo de ponte H L298N. É necessário ligar o primeiro motor aos dois terminais de motor A, o segundo motor aos dois terminais do motor B, ligar os 4 pinos de saída definidos no MCU nas conexões IN1,IN2,IN3 e IN4 indicadas. Além disso, esse módulo requere uma alimentação de 6V a 32V para operar os motores. Ainda, ele possui um regulador de tensão de 5V para alimentação de dispositivos externos. Caso seja utilizado, deve ser ligado o jumper "ATIVA 5V". Caso contrário, o pino de 5V deve ser conectado à alimentação do MCU para servir de referência ao nível lógico HIGH. Caso seja utilizado PWM, os jumpers ATIVA MA e MB deve ser desconectados e duas saídas analógicas devem ser ligadas a esses pinos. Nessa aplicação não foi utilizado PWM.
 
 ![Pinos_PonteH](https://www.theengineeringprojects.com/wp-content/uploads/2017/07/L298-Pinout.jpg)
 
