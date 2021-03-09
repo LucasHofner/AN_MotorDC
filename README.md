@@ -2,7 +2,7 @@
 
 ## Introdução
   
-Esta API foi desenvolvida por Camilla Fernandes e Lucas Hofner para ser utilizada na ![AN Aplicação com Pequenos Motores DC](https://github.com/LucasHofner/Carro_MotorCC/blob/master/AN%20-%20Motores%20DC.pdf), como trabalho da disciplina de Programação de Sistemas Embarcados em março de 2021 na Universidade Federal de Minas Gerais. A matéria foi lecionada pelo professor Ricardo de Oliveira Duarte - Departamento de Engenharia Eletrônica. 
+Esta API foi desenvolvida por Camilla Fernandes e Lucas Hofner para ser utilizada na [AN Aplicação com Pequenos Motores DC](https://github.com/LucasHofner/Carro_MotorCC/blob/master/AN%20-%20Motores%20DC.pdf), como trabalho da disciplina de Programação de Sistemas Embarcados em março de 2021 na Universidade Federal de Minas Gerais. A matéria foi lecionada pelo professor Ricardo de Oliveira Duarte - Departamento de Engenharia Eletrônica. 
 
 A API gerencia o movimento de dois motores CC a partir do controle da ponte H L298N. O movimento, por sua vez, é determinado por 4 botões (fora da API), que são usados como direcionadores:
 * Quando o botão Frente é acionado, ambos motores giram no sentido anti-horário, fazendo com que o carro vá para frente
