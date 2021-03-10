@@ -55,8 +55,6 @@ _Figura 4: Pinagem L298N._
 
 Opcionalmente, para o controle da ponte H, foi utilizado 4 botões. Esses botões foram ligadas aos pinos definidos como interrupções externas ao MCU.
 
-
-
 ## Funções API 
 No arquivo motor.c e motor.h há um cabeçalho indicando o funcionamento, as entradas e saídas de cada função. As funções disponíveis são:
 * moveCarroParaFrente()
@@ -64,3 +62,7 @@ No arquivo motor.c e motor.h há um cabeçalho indicando o funcionamento, as ent
 * moveCarroParaDireita()
 * moveCarroParaEsquerda()
 * pararCarro()
+
+## Demonstração
+
+![GIF_demonstração](https://github.com/LucasHofner/Carro_MotorCC/blob/master/Images/gif_motorDC.gif)
